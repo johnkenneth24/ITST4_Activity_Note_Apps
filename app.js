@@ -7,7 +7,7 @@ yargs.version('17.2.1')
 
 // Create add command
 yargs.command({
-    command: 'add',
+    command: 'add_note',
     describe: 'Add a new note',
     builder: {
         title: {
@@ -28,7 +28,7 @@ yargs.command({
 
 // Create remove command
 yargs.command({
-    command: 'remove',
+    command: 'remove_note',
     describe: 'Remove a note',
     builder: {
         title: {
@@ -44,7 +44,7 @@ yargs.command({
 
 // Create list command
 yargs.command({
-    command: 'list',
+    command: 'list_note',
     describe: 'List your notes',
     handler() {
         notes.listNotes()
@@ -53,7 +53,7 @@ yargs.command({
 
 // Create read command
 yargs.command({
-    command: 'read',
+    command: 'read_note',
     describe: 'Read a note',
     builder: {
         title: {
