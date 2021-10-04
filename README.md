@@ -1,8 +1,8 @@
 # notes_app
 
-By cloning this repository, please run
-$npm install
-to load the packages required.
+Before running or using this note application
+please run first $npm install to install 
+'node_module' to make the application
+start.
 
-Thank You!!
---mistmago1080p
+-Thank You!
